@@ -48,4 +48,4 @@ highest_globally()
 
 
 # Run the application 
-shinyApp(ui = ui, server = server)
+shinyApp(ui = my_ui, server = my_server)
