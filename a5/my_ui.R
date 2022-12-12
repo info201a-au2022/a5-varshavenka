@@ -1,3 +1,9 @@
+  library(shiny)
+  library(dplyr)
+  install.packages("plotly")
+  library(plotly)
+  co2_data <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
+  View(co2_data)
 ui <- fluidPage(
   titlePanel("CO2 Per Capita Data"),
   mainPanel(
